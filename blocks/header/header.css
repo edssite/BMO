@@ -3,7 +3,6 @@ header .nav-wrapper {
   background-color: var(--background-color);
   width: 100%;
   z-index: 2;
-  position: fixed;
   border-bottom: 1px solid var(--bmo-color--light-grey);
   width: 100%;
 }
@@ -344,6 +343,9 @@ header nav .nav-sections ul>li>ul>li {
     padding: 16px;
     background-color: var(--light-color);
     white-space: initial;
+    /* fixed dropdown height issue */
+    height: fit-content;
+    overflow-y: visible;
   }
 
   header nav .nav-sections .default-content-wrapper>ul>li>ul::before {
