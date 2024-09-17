@@ -41,7 +41,7 @@ main .section.five-items .default-content-wrapper ul li:nth-child(2):not(:hover)
   border-bottom: 3px solid var(--bmo-color--brand-default);
 }
 
-main .section.five-items .default-content-wrapper ul li u {
+main .section.five-items .default-content-wrapper ul li a {
   text-decoration: none;
   position: relative;
   display: inline-block;
