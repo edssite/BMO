@@ -12,10 +12,11 @@
 
  @import url("../blocks/custom/fiveitems.css");
  @import url("../blocks/custom/hero.css");
+ @import url("../blocks/custom/explore.css");
 
 :root {
   /* colors */
-  --background-color: white;
+  --background-color: #f5f6f7;;
   --light-color: #f8f8f8;
   --dark-color: #505050;
   --text-color: #131313;
