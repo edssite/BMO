@@ -22,3 +22,8 @@
 .bmo-advantage .bmo-advantage-wrapper .bmo-advantage> div {
   width: 30%;
 }
+
+.bmo-open-account {
+  background-color: #ffffff;
+  padding: 2rem 0;
+}

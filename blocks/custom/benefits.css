@@ -1,0 +1,56 @@
+.benefits-for-students-wrapper {
+  width: 100%;
+}
+
+.benefits-for-students-wrapper .benefits-for-students {
+  display: grid;
+  grid-template-columns: repeat(4, 242px);
+  gap: 35px;
+  margin: 0 auto;
+  width: fit-content;
+}
+
+.benefits-for-students-wrapper .benefits-for-students>div {
+  background-color: #ffffff;
+  border-radius: 0.25rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  box-shadow: 0 0 0.125rem 0 rgba(0, 25, 40, 0.12), 0 0.125rem 0.125rem 0 rgba(0, 25, 40, 0.07);
+  position: relative;
+}
+
+.benefits-for-students-wrapper .benefits-for-students>div>:first-child {
+  width: 100px;
+  height: auto;
+}
+
+.benefits-for-students-wrapper .benefits-for-students>div>:last-child {
+  display: flex;
+  flex-direction: column;
+}
+
+.benefits-for-students-wrapper .benefits-for-students>div>div:last-child p:nth-child(2) {
+  padding-bottom: 2rem;
+}
+.benefits-for-students-wrapper .benefits-for-students>div>div:last-child p:nth-child(3) {
+  margin-top: auto;
+  position: absolute;
+  bottom: 1rem;
+}
+
+.benefits-for-students-wrapper .benefits-for-students>div>div>:last-child a {
+  color: #0075be;
+  background-color: transparent;
+  padding: 0;
+  margin: 0;
+  font-weight: 700;
+}
+.benefits-for-students-wrapper .benefits-for-students>div>div>:last-child {
+  color: #0075be;
+  background-color: transparent;
+  text-transform: uppercase;
+  font-size: 0.875rem;
+  line-height: 1.5rem;
+}
