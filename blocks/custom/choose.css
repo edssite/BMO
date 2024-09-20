@@ -1,0 +1,26 @@
+.help-me-choose-container {
+  background-color: #ffffff;
+  position: relative;
+}
+
+.help-me-choose-container>.help-me-choose-wrapper>.help-me-choose>div {
+  display: flex;
+  position: relative;
+}
+
+.help-me-choose-container>.help-me-choose-wrapper>.help-me-choose>div>div:last-child {
+  width: 235px;
+  height: auto;
+  position: absolute;
+  right: 8rem;
+  bottom: 0;
+}
+
+.help-me-choose-container>.help-me-choose-wrapper>.help-me-choose>div>div:first-child ul {
+  list-style: none;
+  padding: 0;
+}
+.help-me-choose-container>.help-me-choose-wrapper>.help-me-choose>div>div:first-child li {
+  padding-bottom: 1rem;
+  padding-left: 1rem;
+}
