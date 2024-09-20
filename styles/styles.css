@@ -13,6 +13,8 @@
  @import url("../blocks/custom/fiveitems.css");
  @import url("../blocks/custom/hero.css");
  @import url("../blocks/custom/explore.css");
+ @import url("../blocks/custom/choose.css");
+ @import url("../blocks/custom/advantage.css");
 
 :root {
   /* colors */
