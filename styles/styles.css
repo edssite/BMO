@@ -10,18 +10,19 @@
  * governing permissions and limitations under the License.
  */
 
- @import url("../blocks/custom/fiveitems.css");
- @import url("../blocks/custom/hero.css");
- @import url("../blocks/custom/explore.css");
- @import url("../blocks/custom/choose.css");
- @import url("../blocks/custom/advantage.css");
- @import url("../blocks/custom/benefits.css");
- @import url("../blocks/custom/faq.css");
- @import url("../blocks/custom/chequing.css");
+@import url("../blocks/custom/fiveitems.css");
+@import url("../blocks/custom/hero.css");
+@import url("../blocks/custom/explore.css");
+@import url("../blocks/custom/choose.css");
+@import url("../blocks/custom/advantage.css");
+@import url("../blocks/custom/benefits.css");
+@import url("../blocks/custom/faq.css");
+@import url("../blocks/custom/chequing.css");
 
 :root {
   /* colors */
-  --background-color: #f5f6f7;;
+  --background-color: #f5f6f7;
+  ;
   --light-color: #f8f8f8;
   --dark-color: #505050;
   --text-color: #131313;
@@ -376,4 +377,178 @@ main .section.highlight {
   background-color: var(--light-color);
   margin: 0;
   padding: 40px 0;
+}
+
+.security-section>div>div>div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  overflow: visible;
+}
+
+.security-section>div>div>div>div:first-child {
+  overflow: visible;
+
+}
+
+.security-section>div>div>div>div:last-child {
+  width: 120%;
+  position: relative;
+  left: 10rem;
+  overflow: visible;
+
+}
+
+.security-section>div>div>div>div:last-child img {
+  border-radius: 1rem;
+}
+
+
+.security-section>div>div>div>div:first-child * {
+  width: 110%;
+}
+
+.security-section>div>div>div>div:first-child h2 strong {
+  font-weight: 700;
+  font-size: 1.75rem;
+  letter-spacing: 0;
+  font-family: heebo-bold, Arial, sans-serif;
+}
+
+.security-section>div>div>div>div:first-child ul {
+  list-style: none;
+
+}
+
+.security-section>div>div>div>div:first-child ul li::before {
+  content: "\2713";
+  margin-right: 0.5rem;
+  color: #0075be;
+}
+
+.security-section>div>div>div>div:first-child p strong a {
+  background-color: transparent;
+
+  text-transform: uppercase;
+  font-weight: 700;
+  font-family: heebo-bold, Arial, sans-serif;
+  color: #005587;
+  margin-top: 8px;
+}
+
+.security-section>div>div>div>div:first-child p {
+  border: 0.125rem solid #005587;
+  letter-spacing: 0.01562rem;
+  line-height: 3.25rem;
+  background-color: transparent;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 0.875rem;
+  text-align: center;
+  font-family: "Heebo", Arial, Sans-Serif;
+  font-weight: 700;
+  padding: 0 2rem;
+  overflow: hidden;
+  height: 3.5rem;
+  transition: all .2s ease;
+  border-radius: 1.75rem;
+  box-sizing: border-box;
+  width: fit-content;
+}
+
+
+.saving-section>div>div>div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  overflow: visible;
+  width: 100%;
+}
+
+.saving-section>div>div>div>div:first-child {
+  overflow: visible;
+}
+
+.saving-section>div>div>div>div:first-child * {
+  width: 130%;
+}
+
+
+.saving-section .columns-img-col img {
+  height: 493px;
+  width: auto;
+  position: relative;
+  left: 11.5rem;
+  border-radius: 1rem 0 0 1rem;
+}
+
+.saving-section>div>div>div>div:first-child h1 strong {
+  font-weight: 700;
+  font-family: heebo-bold, Arial, sans-serif;
+  font-size: 2.25rem;
+}
+
+.saving-section>div>div>div>div:first-child p {
+  margin: 0;
+  display: block;
+}
+
+.saving-section>div>div>div>div:first-child ul {
+  list-style: none;
+}
+
+.saving-section>div>div>div>div:first-child ul li::before {
+  content: "\2713";
+  margin-right: 0.5rem;
+  color: #0075be;
+}
+
+.saving-section>div>div>div>div:first-child>p:nth-child(4) {
+  font-size: 1.125rem;
+  font-weight: 700;
+  font-family: heebo-bold, Arial, sans-serif;
+  background-color: #e6f9fe;
+  margin: 0;
+  padding: 1.5rem 0 0.5rem 3rem;
+  border-top-width: 0.25rem;
+  border-top-color: #0075be;
+  border-top-style: solid;
+}
+
+.saving-section>div>div>div>div:first-child>p:nth-child(5) {
+  background-color: #e6f9fe;
+  padding: 0rem 0 1rem 3rem;
+
+}
+
+.saving-section>div>div>div>div:first-child>p:nth-child(5) strong {
+  font-size: 1rem;
+  font-weight: 700;
+  font-family: heebo-bold, Arial, sans-serif;
+  background-color: #e6f9fe;
+}
+
+.saving-section>div>div>div>div:first-child>p:nth-child(6) {
+  font-size: 1rem;
+  font-weight: 300;
+  font-family: heebo-light, Arial, sans-serif;
+  background-color: #e6f9fe;
+  padding: 0rem 0 0 3rem;
+}
+
+.saving-section>div>div>div>div:first-child>p.button-container strong a {
+  background-color: transparent;
+  color: #0075be;
+  font-family: heebo-bold, Arial, sans-serif;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  cursor: pointer;
+  text-align: left;
+}
+
+.saving-section>div>div>div>div:first-child>p.button-container {
+  background-color: #e6f9fe;
+  padding: 0rem 0 1rem 1.8rem;
+  border-bottom-right-radius: 0.25rem;
+  border-bottom-left-radius: 0.25rem;
 }
