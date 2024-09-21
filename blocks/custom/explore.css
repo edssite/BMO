@@ -228,3 +228,23 @@
   border-top-color: #d9dce1;
   border-top-style: solid;
 }
+
+.saving-explore-section h2 strong{
+  border: none !important;
+  color: #001928 !important;
+  font-size: 1.75rem !important;
+  font-family: heebo-bold, Arial, sans-serif !important;
+  text-transform: none !important;
+}
+
+.saving-explore-section h2 {
+  padding-bottom: 0 !important;
+  margin-bottom: 0 !important;
+}
+
+.saving-explore-section ul {
+  border-top: 1px solid #d9dce1;
+  margin: 2rem 2rem 0;
+  padding: 2rem 0 0;
+
+}

@@ -50,3 +50,28 @@
 .faq-wrapper {
   position: relative;
 }
+
+.saving-faq-section .faq-wrapper{
+  margin-left: 15rem !important;
+}
+.saving-faq-section {
+  position: relative
+}
+.saving-faq-section .default-content-wrapper {
+  position: absolute;
+  width: 570px;
+  height: 100%;
+  top: -2rem;
+  left: -5rem;
+  z-index: 10;
+}
+
+.saving-faq-section .default-content-wrapper img{
+  border-radius: 1rem;
+}
+
+.saving-faq-section .default-content-wrapper h2{
+  position: inherit;
+  right: -17.6rem;
+  bottom:19rem;
+}

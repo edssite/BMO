@@ -54,3 +54,12 @@ main .section.five-items .default-content-wrapper ul li a {
   line-height: 1.25rem;
   font-family: heebo-regular, Arial, sans-serif;
 }
+
+main .section.saving-five-items .default-content-wrapper ul li:nth-child(2):not(:hover) {
+  border-top: 3px solid transparent !important;
+  border-bottom: 3px solid transparent !important;
+}
+main .section.saving-five-items .default-content-wrapper ul li:nth-child(3):not(:hover) {
+  border-top: 3px solid transparent !important;
+  border-bottom: 3px solid var(--bmo-color--brand-default);;
+}
